@@ -1,0 +1,33 @@
+{
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "ac16d31"
+  },
+  "schemaVersion": 16,
+  "id": "search-form",
+  "components": [
+    {
+      "label": "Product Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1kgywxs",
+        "columns": null
+      },
+      "id": "Field_0epajq3",
+      "key": "product_name"
+    },
+    {
+      "action": "submit",
+      "label": "Search",
+      "type": "button",
+      "layout": {
+        "row": "Row_0s15400",
+        "columns": null
+      },
+      "id": "Field_1jkwhmu"
+    }
+  ],
+  "type": "default"
+}

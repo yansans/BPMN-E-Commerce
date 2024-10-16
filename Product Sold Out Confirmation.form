@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "text": "### Product Sold Out",
+      "type": "text",
+      "id": "Subheading_0",
+      "layout": {
+        "row": "row_0",
+        "columns": null
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Continue",
+          "value": "true"
+        },
+        {
+          "label": "Stop",
+          "value": "false"
+        }
+      ],
+      "label": "Continue Shopping?",
+      "type": "radio",
+      "layout": {
+        "row": "Row_12zub99",
+        "columns": null
+      },
+      "id": "Field_0rs9jjj",
+      "key": "continue",
+      "defaultValue": "value",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "action": "submit",
+      "label": "Confirm",
+      "type": "button",
+      "layout": {
+        "row": "Row_0xsexpk",
+        "columns": null
+      },
+      "id": "Field_1m0mrid"
+    }
+  ],
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.27.0"
+  },
+  "schemaVersion": 16,
+  "id": "continue-form",
+  "generated": true,
+  "type": "default"
+}

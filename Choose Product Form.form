@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "label": "Search Result :",
+      "type": "radio",
+      "layout": {
+        "row": "Row_04fvqr7",
+        "columns": null
+      },
+      "id": "Field_1mgeqk7",
+      "key": "choosen_product",
+      "valuesExpression": "=if product_name = \"meja\" then [\"meja kayu\", \"meja besi\"] else [\"kursi\", \"lemari\"]\n",
+      "properties": {}
+    },
+    {
+      "action": "submit",
+      "label": "Choose",
+      "type": "button",
+      "layout": {
+        "row": "Row_0vquowt",
+        "columns": null
+      },
+      "id": "Field_105ee1x"
+    }
+  ],
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.5.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.27.0"
+  },
+  "schemaVersion": 16,
+  "id": "choose-product-form",
+  "type": "default"
+}

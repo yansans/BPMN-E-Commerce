@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "text": "# Confirm Your Order",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_1n5i9l4",
+        "columns": null
+      },
+      "id": "Field_07nsx0h"
+    },
+    {
+      "text": "* {{product_in_cart}}",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_0785f7d",
+        "columns": null
+      },
+      "id": "Field_1gqx0cd"
+    },
+    {
+      "action": "submit",
+      "label": "Confirm",
+      "type": "button",
+      "layout": {
+        "row": "Row_1u0ngki",
+        "columns": null
+      },
+      "id": "Field_06gthov"
+    },
+    {
+      "computeOn": "presubmit",
+      "label": "Expression",
+      "type": "expression",
+      "layout": {
+        "row": "Row_19mvmi2",
+        "columns": null
+      },
+      "id": "Field_0ul6f18",
+      "key": "order",
+      "expression": "=product_in_cart"
+    }
+  ],
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.6.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.27.0"
+  },
+  "schemaVersion": 16,
+  "id": "confirm-form",
+  "type": "default"
+}
